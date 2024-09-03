@@ -8,4 +8,7 @@ class Server {
         Server(std::string ipAddress, std::uint16_t port);
         ~Server();
 
+        int start();
+        void stop();
+
 };
